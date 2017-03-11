@@ -17,3 +17,7 @@ GET     /signup                     controllers.HomeController.signUp
 POST     /loginSubmit/:email               controllers.HomeController.loginSubmit(email:String)
 
 GET     /logout                     controllers.HomeController.logout
+
+GET      /javascriptRoutes                   controllers.JavascriptController.javascriptRoutes
+
+POST     /submit            controllers.HomeController.submit(firstName,lastName, email, password,rePassword,phone)
